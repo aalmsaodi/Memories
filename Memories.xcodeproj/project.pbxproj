@@ -14,6 +14,8 @@
 		CEB40CAA1F23E9CB0020BEE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB40CA81F23E9CB0020BEE4 /* LaunchScreen.storyboard */; };
 		CEB40CB51F23E9CB0020BEE4 /* MemoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB40CB41F23E9CB0020BEE4 /* MemoriesTests.swift */; };
 		CEB40CC01F23E9CB0020BEE4 /* MemoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB40CBF1F23E9CB0020BEE4 /* MemoriesUITests.swift */; };
+		CEB40CCE1F23F2170020BEE4 /* MemoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB40CCD1F23F2170020BEE4 /* MemoriesViewController.swift */; };
+		CEB40CD01F23F3360020BEE4 /* MemoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB40CCF1F23F3360020BEE4 /* MemoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CEB40CBB1F23E9CB0020BEE4 /* MemoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB40CBF1F23E9CB0020BEE4 /* MemoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesUITests.swift; sourceTree = "<group>"; };
 		CEB40CC11F23E9CB0020BEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB40CCD1F23F2170020BEE4 /* MemoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoriesViewController.swift; sourceTree = "<group>"; };
+		CEB40CCF1F23F3360020BEE4 /* MemoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		CEB40C931F23E9CA0020BEE4 = {
 			isa = PBXGroup;
 			children = (
+				CEB40CCD1F23F2170020BEE4 /* MemoriesViewController.swift */,
 				CEB40C9E1F23E9CB0020BEE4 /* Memories */,
 				CEB40CB31F23E9CB0020BEE4 /* MemoriesTests */,
 				CEB40CBE1F23E9CB0020BEE4 /* MemoriesUITests */,
@@ -100,6 +105,7 @@
 				CEB40C9F1F23E9CB0020BEE4 /* AppDelegate.swift */,
 				CEB40CA11F23E9CB0020BEE4 /* ViewController.swift */,
 				CEB40CA31F23E9CB0020BEE4 /* Main.storyboard */,
+				CEB40CCF1F23F3360020BEE4 /* MemoryCell.swift */,
 				CEB40CA61F23E9CB0020BEE4 /* Assets.xcassets */,
 				CEB40CA81F23E9CB0020BEE4 /* LaunchScreen.storyboard */,
 				CEB40CAB1F23E9CB0020BEE4 /* Info.plist */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB40CD01F23F3360020BEE4 /* MemoryCell.swift in Sources */,
+				CEB40CCE1F23F2170020BEE4 /* MemoriesViewController.swift in Sources */,
 				CEB40CA21F23E9CB0020BEE4 /* ViewController.swift in Sources */,
 				CEB40CA01F23E9CB0020BEE4 /* AppDelegate.swift in Sources */,
 			);
